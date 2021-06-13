@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+::-webkit-scrollbar{
+    width: 0.7em;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f1f1f6;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+
+}
+blockquote,cite,q,strong{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,blockquote,cite,q,strong{
+    cursor: default;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+}
+
+nav{
+    /* background-image: linear-gradient(to right top, #00296b, #013277, #023c84, #014690, #00509d); */
+    /* background: #00296b; */
+    background: none;
+    z-index: 3;
+    background: #000;
+}
+
+nav a,nav a:hover{
+    color: #f1f1f6;
+}
+
+nav a{
+    transition:.2s ease-in-out;
+    opacity: 0.7;
+}
+
+nav a:hover{
+    transition:.2s ease-in-out;
+    transform:translateY(-2px);
+    opacity: 1;
+}
+
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/09/20/53/microphone-2130806_960_720.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#title{
+    position: relative;
+    width: auto;
+    top: 50vh;
+    padding-right: 2rem;
+    transform: translateY(-50%);
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    color: #f1f1f6;
+}
+
+main{
+    color: #f1f1f6;
+    position: relative;
+    top: 100vh;
+}
+
+address section{
+    transition:.2s ease-in-out;
+    opacity: 0.8;
+}
+
+ 
+address section:hover{
+    transition:.2s ease-in-out;
+    transform:translateY(-1rem);
+    opacity: 1;
+}
+
+#firstGallery figure{
+    transition:.2s linear;
+    filter: grayscale(95);
+}
+
+#firstGallery figure:hover{
+    transform: scale(.95);
+    transition:.4s linear;
+    filter: grayscale(0);
+}
